@@ -14,7 +14,7 @@ function objectMethods(obj) {
   let hasProp = obj.hasOwnProperty("property");
   console.log("After hasOwnProperty():", hasProp);
 
-  let newObj = Object.assign({}, obj, { newProperty: "newValue" });
+  let newObj = Object.assign({}, obj, { newProperty: "sudhir" });
   console.log("After Object.assign():", newObj);
 
 
@@ -22,9 +22,9 @@ function objectMethods(obj) {
 
 // Example Usage for Object Methods
 const sampleObject = {
-  key1: "value1",
-  key2: "value2",
-  key3: "value3",
+  key1: "sachin",
+  key2: "amish",
+  key3: "ujjwal",
 };
 
 objectMethods(sampleObject);

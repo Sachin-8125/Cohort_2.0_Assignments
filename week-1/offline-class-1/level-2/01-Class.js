@@ -9,4 +9,9 @@ class Animal {
   }
 }
 
+const animal = new Animal();
+animal.name = "dogi";
+animal.legCount = 4;
+console.log(animal.describe());
+
 
